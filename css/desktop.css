@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    font-family:sans-serif;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.container{
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+/* set banner */
+.banner-name{
+    color: #f7f7f7;
+    top: 45%;
+    left: 40%;
+    text-align: center;
+}
+
+/* nâng cao */
+.anh-nangcao{
+    position: absolute;
+    width: 300px;
+    left: 37%;
+    bottom: -150px;
+    border-radius: 50% 50% 50% 50%;
+    border: 10px solid white;
+}
+
+/* set navbar */
+#nav-bar a {
+    border: 1px solid #ddd;
+    color: #199cdb;
+    padding: 14px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* set info */
+/* an thong tin */
+.info,
+.noi-dung,
+.view-more{
+    display: none;
+}
+
+.icon-tt{
+    padding-top: 20px;
+}
+
+.icon-tt i{
+    color: #04AA6D;
+}
+
+
+.job-infos{
+    justify-items: center;
+    border: 1px solid #ddd;
+}
+
+
+.job-infos .icon{
+    font-size: 40px;
+    margin: 10px 40px 0 0;
+}
+
+ul{
+    grid-column: 1/-1;
+}
+
+::marker{
+    color: #199cdb;
+    
+}
+
+.vien{
+    color: #04AA6D;
+    border-radius: 50% / 50%;
+    border: 3px solid #04AA6D;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.span-blue{
+    background: #199cdb;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+margin-bottom: 10px;
+}
+
+.span-grey{
+    background: grey;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+margin-bottom: 10px;
+}
+
+/* set du an */
+.borders{
+    width: 70px;
+    border-radius: 10px;
+    background-color: #199cdb;
+    color: white;
+    font-size: 20px;
+}
+
+#project td{
+    vertical-align: top;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    
+}
+
+
+/* set footer */
+
+/* set link chung */
+#nav-bar a:hover,
+#footer a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#nav-bar a:active,
+#footer a:active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#footer span{
+    color: #04AA6D;
+    font-size: 30px;
+
+}
+
+/* set digital-cv */
+
+.title-cv {
+    color: blue;
+    border-bottom: 1px solid grey;
+  }
+  .icon-timeline {
+    display: flex;
+    color: white;
+    background-color: #9e88ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    border-bottom: 2px dotted lightblue;
+  }
+  .digital-cv {
+    border: 15px solid blue;
+  }
+  .border-cv {
+    border-right: 15px solid blue;
+  }
+  .border-cv-row {
+    border-bottom: 15px solid blue;
+  }
+      
