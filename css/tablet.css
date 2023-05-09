@@ -1,3 +1,17 @@
-/* @media only screen and (max-width: 991px) {
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .anh-nangcao{
+        display: none;
+    }
 
-} */
+    .box-border {
+        margin-top: 20px;
+      }
+      /* digital table */
+      .digital-icon {
+        text-align: center;
+      }
+      .border-cv {
+        border-right: none;
+        border-bottom: 15px solid blue;
+      }
+}
